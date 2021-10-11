@@ -6,5 +6,6 @@ Made with:
 <li>HTML</li>
 <li>CSS</li>
 <li>Javascript</li>
-
+<br>
+<hr>
 <a href="https://ds-kv.github.io/Js-code--editor/">See the website</a>
