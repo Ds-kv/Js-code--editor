@@ -8,4 +8,4 @@ Made with:
 <li>Javascript</li>
 <br>
 <hr>
-<a href="https://ds-kv.github.io/Js-code--editor/">See the website</a>
+<a href="https://ds-kv.github.io/Js-code--editor/">checkout the app</a>
