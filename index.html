@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+     <script src="emmet.js"></script>
     <link rel="stylesheet" href="style.css" />
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -34,5 +35,12 @@
       <iframe class="output"></iframe>
     </div>
     <script src="./main.js"></script>
+    	<script>
+		emmet.require('textarea').setup({
+			pretty_break: true, // enable formatted line breaks (when inserting 
+					            // between opening and closing tag) 
+			use_tab: true      // expand abbreviations by Tab key
+		});
+	</script>
   </body>
 </html>
