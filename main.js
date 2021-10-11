@@ -14,9 +14,9 @@ function run() {
   let cssCode = document.querySelector(".css-code");
   let jsCode = document.querySelector(".js-code");
 
-  let usableCode = htmlCode.value + "<style>" + cssCode.value + "</style>";
+  let mixedCode = htmlCode.value + "<style>" + cssCode.value + "</style>" + "<script>" + jsCode.value + "</script>";
 
-  output.contentDocument.body.innerHTML = usableCode;
+  output.contentDocument.body.innerHTML = mixedCode;
   output.contentWindow.eval(jsCode.value);
 }
 
